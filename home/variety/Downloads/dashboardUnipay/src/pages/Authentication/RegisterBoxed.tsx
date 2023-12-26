@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
+import SweetAlert from '../../components/alertBox';
 import FormGroup from '../../components/formGroup';
 import { setPageTitle } from '../../store/themeConfigSlice';
-import SweetAlert from '../../components/alertBox';
 
 const RegisterBoxed = () => {
     

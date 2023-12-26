@@ -22,15 +22,15 @@ export const useWithdrawFormik = ({onError, onResponse}: {onError?: any, onRespo
             bank_code: Yup.string()
             .required(),
             account_number: Yup.number()
-            .max(9999999999999999, 'Maximum only 16 characters.')
-            .min(9999999999, 'Minimal must 10 characters.')
+            .max(9999999999999999, 'Maksimal 16 angka.')
+            .min(9999999999, 'Minimal 10 angka.')
             .required(),
             amount: Yup.number()
-            .min(9999, 'Minimal must Rp. 10.000.')
+            .min(9999, 'Minimal nominal Rp. 10.000.')
             .required(),
             description: Yup.string()
-            .required('This is field required!')
-            .max(200, 'Maximal only 16 characters.')
+            .required('Tidak boleh kosong!')
+            .max(200, 'Maksimal 200 karakter.')
         }),
         onSubmit: async (values: any, {resetForm}) => {
             try {

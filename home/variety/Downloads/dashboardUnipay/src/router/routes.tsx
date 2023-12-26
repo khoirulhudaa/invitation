@@ -27,27 +27,27 @@ const routes = [
         element: <Payment />,
     },
     {
-        path: '/data-payment/Semester',
+        path: '/data-payment/Semester/:prodi',
         element: <Semester />,
     },
     {
-        path: '/data-payment/PKKMB',
+        path: '/data-payment/PKKMB/:prodi',
         element: <PKKMB />,
     },
     {
-        path: '/data-payment/Remedial',
+        path: '/data-payment/Remedial/:prodi',
         element: <Remedial />,
     },
     {
-        path: '/data-payment/Sertification',
+        path: '/data-payment/Sertification/:prodi',
         element: <Sertification />,
     },
     {
-        path: '/data-payment/UTS',
+        path: '/data-payment/UTS/:prodi',
         element: <UTS />,
     },
     {
-        path: '/data-payment/UAS',
+        path: '/data-payment/UAS/:prodi',
         element: <UAS />,
     },
     {

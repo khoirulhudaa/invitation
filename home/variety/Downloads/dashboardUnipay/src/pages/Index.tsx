@@ -9,6 +9,7 @@ import TableWDAdmin from '../components/tableWDAdmin';
 import toRupiah from '../helpers/toRupiah';
 import API from '../services/api';
 import { getBalance } from '../store/paymentSlice';
+import { FaSpinner } from 'react-icons/fa';
 
 const Finance = () => {
     const [dataUsers, setDataUsers] = useState<any[]>([])
@@ -78,9 +79,7 @@ const Finance = () => {
                 
                 <ul className="flex items-center justify-between space-x-2 rtl:space-x-reverse">
                 <li>
-                    <Link to="#" className="text-primary hover:underline">
-                        Dashboard
-                    </Link>
+                    <Button onClick={() => setUpdate(true)} text='Muat ulang' typeButton='with-icon' icon={<FaSpinner />} />
                 </li>
                 <div className='flex items-center'>
                     <p>SALDO : 

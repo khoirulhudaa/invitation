@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FaBookmark } from 'react-icons/fa';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { authSignOut } from '../../store/authSlice';
-import { clearProducts } from '../../store/productSlice';
 import { toggleSidebar } from '../../store/themeConfigSlice';
-import { FaBookmark, FaBullhorn, FaCheck, FaEvernote, FaGem, FaList, FaListOl, FaListUl, FaTag, FaWallet } from 'react-icons/fa';
 
 const Sidebar = () => {
 
@@ -52,8 +51,7 @@ const Sidebar = () => {
         e.preventDefault()
         try {
             const clearAuth = dispatch(authSignOut())
-            const clearProduct = dispatch(clearProducts())
-            if(clearProduct && clearAuth ) navigate('/auth/signin')
+            if(clearAuth) navigate('/auth/signin')
         } catch (error: any) {
             console.log(error)
         }
@@ -202,12 +200,12 @@ const Sidebar = () => {
                                                     </svg>
                                                     </button>
                                                     <div className={`mt-4 ml-9 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-                                                    <Link to={'/data-payment/Semester'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
-                                                    <Link to={'/data-payment/Remedial'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
-                                                    <Link to={'/data-payment/PKKMB'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
-                                                    <Link to={'/data-payment/UTS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
-                                                    <Link to={'/data-payment/UAS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
-                                                    <Link to={'/data-payment/Sertification'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
+                                                    <Link to={'/data-payment/Semester/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
+                                                    <Link to={'/data-payment/Remedial/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
+                                                    <Link to={'/data-payment/PKKMB/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
+                                                    <Link to={'/data-payment/UTS/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
+                                                    <Link to={'/data-payment/UAS/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
+                                                    <Link to={'/data-payment/Sertification/Teknik Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -246,12 +244,12 @@ const Sidebar = () => {
                                                     </svg>
                                                     </button>
                                                     <div className={`mt-4 ml-9 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-                                                    <Link to={'/data-payment/Semester'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
-                                                    <Link to={'/data-payment/Remedial'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
-                                                    <Link to={'/data-payment/PKKMB'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
-                                                    <Link to={'/data-payment/UTS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
-                                                    <Link to={'/data-payment/UAS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
-                                                    <Link to={'/data-payment/Sertification'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
+                                                    <Link to={'/data-payment/Semester/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
+                                                    <Link to={'/data-payment/Remedial/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
+                                                    <Link to={'/data-payment/PKKMB/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
+                                                    <Link to={'/data-payment/UTS/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
+                                                    <Link to={'/data-payment/UAS/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
+                                                    <Link to={'/data-payment/Sertification/Rekaya Perangkat Lunak'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -290,12 +288,12 @@ const Sidebar = () => {
                                                     </svg>
                                                     </button>
                                                     <div className={`mt-4 ml-9 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-                                                    <Link to={'/data-payment/Semester'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
-                                                    <Link to={'/data-payment/Remedial'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
-                                                    <Link to={'/data-payment/PKKMB'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
-                                                    <Link to={'/data-payment/UTS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
-                                                    <Link to={'/data-payment/UAS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
-                                                    <Link to={'/data-payment/Sertification'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
+                                                    <Link to={'/data-payment/Semester/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
+                                                    <Link to={'/data-payment/Remedial/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
+                                                    <Link to={'/data-payment/PKKMB/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
+                                                    <Link to={'/data-payment/UTS/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
+                                                    <Link to={'/data-payment/UAS/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
+                                                    <Link to={'/data-payment/Sertification/Manajemen Komputerisasi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -334,12 +332,12 @@ const Sidebar = () => {
                                                     </svg>
                                                     </button>
                                                     <div className={`mt-4 ml-9 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-                                                    <Link to={'/data-payment/Semester'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
-                                                    <Link to={'/data-payment/Remedial'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
-                                                    <Link to={'/data-payment/PKKMB'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
-                                                    <Link to={'/data-payment/UTS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
-                                                    <Link to={'/data-payment/UAS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
-                                                    <Link to={'/data-payment/Sertification'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
+                                                    <Link to={'/data-payment/Semester/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
+                                                    <Link to={'/data-payment/Remedial/Manajemen/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
+                                                    <Link to={'/data-payment/PKKMB/Manajemen/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
+                                                    <Link to={'/data-payment/UTS/Manajemen/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
+                                                    <Link to={'/data-payment/UAS/Manajemen/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
+                                                    <Link to={'/data-payment/Sertification/Manajemen Informatika'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -378,12 +376,12 @@ const Sidebar = () => {
                                                     </svg>
                                                     </button>
                                                     <div className={`mt-4 ml-9 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-                                                    <Link to={'/data-payment/Semester'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
-                                                    <Link to={'/data-payment/Remedial'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
-                                                    <Link to={'/data-payment/PKKMB'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
-                                                    <Link to={'/data-payment/UTS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
-                                                    <Link to={'/data-payment/UAS'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
-                                                    <Link to={'/data-payment/Sertification'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
+                                                    <Link to={'/data-payment/Semester/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Semesteran</Link>
+                                                    <Link to={'/data-payment/Remedial/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Ujian perbaikan</Link>
+                                                    <Link to={'/data-payment/PKKMB/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> PPKMB</Link>
+                                                    <Link to={'/data-payment/UTS/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UTS</Link>
+                                                    <Link to={'/data-payment/UAS/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> UAS</Link>
+                                                    <Link to={'/data-payment/Sertification/Komputerisasi Akuntansi'} className="flex items-center mb-3"><FaBookmark className='mr-3' /> Sertifikasi</Link>
                                                     </div>
                                                 </div>
                                             </div>

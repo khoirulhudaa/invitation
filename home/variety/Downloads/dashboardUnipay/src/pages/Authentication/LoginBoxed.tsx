@@ -3,8 +3,6 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import FormGroup from '../../components/formGroup';
 import { authSignOut } from '../../store/authSlice';
-import { clearProducts } from '../../store/productSlice';
-import { clearShop } from '../../store/shopSlice';
 import { setPageTitle } from '../../store/themeConfigSlice';
 
 const LoginBoxed = () => {
@@ -15,8 +13,6 @@ const LoginBoxed = () => {
     useEffect(() => {
         dispatch(setPageTitle('Login Boxed'));
         dispatch(authSignOut())
-        dispatch(clearProducts())
-        dispatch(clearShop())
     }, [])
     
 
