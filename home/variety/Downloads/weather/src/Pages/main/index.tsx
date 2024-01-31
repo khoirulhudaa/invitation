@@ -7,7 +7,7 @@ import { Clear, Haze, MoonCloud, Snow, Squal, SunCloud, SunRain, Tornado } from 
 const Homepage = () => {
   const [city, setCity] = useState<string>('');
   const [weatherData, setWeatherData] = useState<any>(null);
-  const [error, setError] = useState<string>('');
+  const [error, setError] = useState<string>(''); 
 
   const apiKey = '4cae5e7e0f71c3b22f62b988b197ce93';
   const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
