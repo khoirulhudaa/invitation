@@ -5,7 +5,7 @@ import Marker from './marker.png'
 import Side from './side.svg'
 import EarthPNG from './earth.png'
 import EarthGIF from './earth.gif'
-
+import Device from './device.png'
 
 export {
     Success,
@@ -14,5 +14,6 @@ export {
     Marker,
     Side,
     EarthPNG,
-    EarthGIF
+    EarthGIF,
+    Device
 }
