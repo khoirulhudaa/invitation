@@ -1,0 +1,122 @@
+[
+    {
+        "nama": "Derawan Islands",
+        "lokasi": "Kalimatan Timur, Indoenesia",
+        "pulau": "Kalimantan",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Candi Borobudur 😀</h2><br /><p>Kepulauan Derawan adalah sekelompok kepulauan yang terletak di Kabupaten Berau, Kalimantan Timur, Indonesia. Kepulauan ini terdiri dari 31 pulau, di antaranya adalah Pulau Derawan, Kakaban, Maratua, dan Sangalaki. Kepulauan ini juga mencakup berbagai terumbu karang dan pulau kecil yang penting, seperti padang lamun dan hutan mangrove. Kepulauan Derawan dikenal karena keanekaragaman hayati yang luar biasa, termasuk berbagai spesies yang dilindungi seperti penyu hijau, penyu sisik, paus, lumba-lumba, kima, ketam kelapa, duyung, ikan barakuda, dan beberapa spesies lainnya 1.</p><br /><p>Kepulauan Derawan telah dicalonkan sebagai Situs Warisan Dunia UNESCO pada tahun 2005, menunjukkan pentingnya ekosistem ini dalam konteks global. Wisatawan lokal dan mancanegara sering mengunjungi kepulauan ini untuk menikmati berbagai aktivitas wisata, seperti menyelam, melihat proses bertelur penyu, dan menikmati pantai yang bersih dan indah. Fasilitas komunikasi di Kepulauan Derawan sudah baik, seperti sinyal 3G, yang memudahkan wisatawan untuk mengakses informasi dan layanan 1.</p>",
+        "history": "<h2>Sejarah Derawan Islands 😀</h2><br /><p>Derawan Islands adalah sebuah gugusan pulau yang terletak di Kalimantan Timur, Indonesia. Pulau-pulau ini terkenal karena keindahan alam bawah lautnya yang luar biasa, dengan terumbu karang yang indah, biota laut yang beragam, dan penyu-penyu yang berkumpul di sekitar pulau-pulau tersebut. Derawan Islands menjadi salah satu tujuan utama bagi penyelam dan pecinta alam bawah laut di seluruh dunia.</p><br /><p>Sejarah Derawan Islands tidak sejelas sejarah Candi Borobudur atau Pulau We, tetapi pulau-pulau ini telah menjadi destinasi wisata yang populer dalam beberapa dekade terakhir. Pengembangan pariwisata di kawasan ini telah membawa manfaat ekonomi bagi masyarakat lokal, tetapi juga menimbulkan tantangan terkait pelestarian lingkungan dan keberlanjutan pariwisata.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            { "name": "Derawan Dive Lodge", "value": 800000 },
+            { "name": "Nabucco Island Resort", "value": 1500000 },
+            { "name": "Derawan Dive Resort", "value": 1000000 },
+            { "name": "Maratua Paradise Resort", "value": 2000000 },
+            { "name": "Derawan Beach Cottage", "value": 600000 }
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipNIcil0rao-qGES9I5XVnhGbApoRCfEh0ZdqQiC=w408-h306-k-no"
+    },
+    {
+        "nama": "Candi Borobudur",
+        "lokasi": "Magelang, Indonesia",
+        "pulau": "Jawa",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Candi Borobudur 😀</h2><br /><p>Candi Borobudur adalah kompleks candi yang terletak di Magelang, Jawa Tengah, Indonesia. Candi ini merupakan salah satu candi terbesar dan paling kompleks di dunia, dengan tinggi total sekitar 45 meter dan berbentuk bola. Candi Borobudur terdiri dari empat tingkat, yaitu Arupadhatu, Pradhatu, Mandala, dan Arupadhatu, yang masing-masing memiliki ciri khas dan fungsi tersendiri.</p><br /><p>Candi Borobudur dibangun pada abad ke-9 Masehi dan merupakan tempat peribadatan utama bagi umat Buddhis di Nusantara. Candi ini dikenal karena keindahannya dan simbolisme yang kuat, yang mencerminkan pemahaman Buddha tentang kehidupan dan kehidupan setelah mati. Candi ini juga merupakan contoh arsitektur Hindu-Buddha yang unik di Nusantara, dengan kombinasi elemen Hindu dan Buddha.</p>",
+        "history": "<h2>Sejarah Candi Borobudur 😀</h2><br /><p>Candi Borobudur adalah sebuah candi Buddha yang terletak di Magelang, Jawa Tengah, Indonesia. Candi ini dibangun pada abad ke-9 Masehi oleh dinasti Sailendra, yang memerintah di wilayah Jawa Tengah pada masa itu. Konon, pembangunan Candi Borobudur dimulai pada awal abad ke-8 Masehi di bawah pemerintahan Raja Samaratungga. Candi ini dibangun sebagai tempat ibadah Buddha Mahayana, tetapi kemudian ditinggalkan setelah penyebaran agama Islam di Jawa pada abad ke-14.</p><br /><p>Candi Borobudur kemudian dilupakan dan tertutup oleh letusan Gunung Merapi dan lahar vulkanik selama berabad-abad. Pada awal abad ke-19, Sir Thomas Stamford Raffles, Gubernur Jenderal Inggris di Jawa, menemukan kembali candi ini. Borobudur kemudian mengalami proses restorasi besar-besaran pada abad ke-20, dan sekarang menjadi salah satu situs budaya dan wisata terbesar di Indonesia, serta menjadi Situs Warisan Dunia UNESCO.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            {"name": "Resort Bintang 5", "value": "1.500.000 -3.000.000"},
+            {"name": "Resort Bintang 4", "value": "800.000 - 1.500.000"},
+            {"name": "Resort Bintang 3", "value": "300.000 - 800.000"},
+            {"name": "Hotel", "value": "300.000 - 500.000"},
+            {"name": "Guesthouse", "value": "Mulai dari 150.000"}
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipOtn45cWWNc4uyT2hJiwTFZ7U5Qo6FI2o_jzWfS=w421-h240-k-no"
+    },
+    {
+        "nama": "Danau Toba",
+        "lokasi": "Sumatera Utara, Indonesia",
+        "pulau": "Sumatera",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Danau Toba 😀</h2><br /><p>Danau Toba adalah salah satu tujuan wisata utama di Indonesia dan merupakan danau vulkanik terbesar di dunia. Terletak di Provinsi Sumatera Utara, Danau Toba memiliki daya tarik yang luar biasa dengan keindahan alamnya yang megah dan warisan budayanya yang kaya.</p><br /><p>Deskripsi Danau Toba mencakup pesona alamnya yang memukau. Danau ini terletak di dalam kawah raksasa gunung berapi yang telah padam, menciptakan lanskap yang dramatis dengan air biru yang memukau dan pegunungan hijau yang mengelilinginya. Pulau Samosir yang terletak di tengah danau menjadi daya tarik tersendiri dengan kebudayaan Bataknya yang kaya dan pemandangan alam yang menakjubkan.</p>",
+        "history": "<h2>Sejarah Danau Toba 😀</h2><br /><p>Danau Toba adalah sebuah danau vulkanik yang terletak di Sumatera Utara, Indonesia. Danau ini adalah danau vulkanik terbesar di dunia dan merupakan daya tarik wisata utama di Indonesia. Namun, sejarah Danau Toba lebih dari sekadar keindahannya; ia juga kaya akan sejarah budaya dan geologi yang menarik.</p><br /><p>Asal Usul Geologis: Danau Toba terbentuk sekitar 75.000 tahun yang lalu dalam sebuah letusan super vulkanik yang sangat besar. Letusan ini menghasilkan kaldera raksasa yang kemudian terisi air hujan, membentuk danau yang kita lihat sekarang.</p><br /><p>Sejarah Budaya: Danau Toba adalah rumah bagi suku Batak Toba, salah satu kelompok etnis terbesar di Sumatera Utara. Mereka memiliki warisan budaya yang kaya, termasuk tradisi musik, tarian, dan arsitektur unik. Budaya ini telah menjadi daya tarik wisata yang signifikan bagi pengunjung.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            { "name": "Hotel Toba", "value": 500000 },
+            { "name": "Samosir Villa Resort", "value": 800000 },
+            { "name": "Taman Simalem Resort", "value": 1200000 },
+            { "name": "Inna Parapat", "value": 600000 },
+            { "name": "Tabo Cottages", "value": 400000 }
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipP5HOgYU0LUgD8_5Xusfcyr9lJzKUuXcWTIyBDR=w408-h272-k-no"
+    },
+    {
+        "nama": "Raja Ampat",
+        "lokasi": "Papua Barat, Indonesia",
+        "pulau": "Papua",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Raja Ampat 😀</h2><br /><p>Raja Ampat adalah salah satu destinasi wisata terbaik di Indonesia dan bahkan di dunia. Terletak di Provinsi Papua Barat, Raja Ampat dikenal karena keindahan alam bawah lautnya yang luar biasa, dengan keanekaragaman hayati yang kaya dan terumbu karang yang spektakuler.</p><br /><p>Deskripsi Raja Ampat juga mencakup pesona alam di permukaannya, dengan pulau-pulau indah, pantai pasir putih, dan hutan tropis yang mengagumkan. Raja Ampat juga menjadi rumah bagi berbagai spesies langka, termasuk burung-burung paradis yang terkenal dan kadal laut yang langka.</p><br /><p>Nilai ekologis dan keindahan alam Raja Ampat telah membuatnya menjadi tujuan wisata yang populer bagi para penyelam, snorkeler, dan pecinta alam dari seluruh dunia.</p>",
+        "history": "<h2>Sejarah Raja Ampat 😀</h2><br /><p>Raja Ampat memiliki sejarah yang kaya sebagai bagian dari wilayah Papua, yang memiliki budaya dan tradisi yang unik. Para peneliti juga menemukan bukti sejarah awal manusia modern di wilayah ini, menunjukkan bahwa Raja Ampat telah menjadi tempat tinggal bagi manusia sejak ribuan tahun yang lalu.</p><br /><p>Sejarah Raja Ampat juga mencakup masa penjajahan Belanda dan pengaruh kolonialisme yang mempengaruhi kehidupan dan budaya penduduk setempat. Namun, meskipun telah mengalami banyak perubahan sepanjang sejarahnya, Raja Ampat tetap mempertahankan keindahan alamnya yang luar biasa dan menjadi salah satu tujuan wisata terbaik di Indonesia.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            { "name": "Raja Ampat Dive Lodge", "value": 1500000 },
+            { "name": "Raja Ampat Biodiversity Resort", "value": 2500000 },
+            { "name": "Papua Paradise Eco Resort", "value": 3000000 },
+            { "name": "Raja Ampat Dive Resort", "value": 2000000 },
+            { "name": "Kri Eco Resort", "value": 2800000 }
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipNYrr2CeTEvQh142EUgUeY4FY4T60RnuclcY82n=w408-h306-k-no"
+    },
+    {
+        "nama": "Gunung Bromo",
+        "lokasi": "Jawa Timur, Indonesia",
+        "pulau": "Jawa",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Gunung Bromo 😀</h2><br /><p>Gunung Bromo adalah salah satu destinasi wisata paling terkenal di Indonesia. Terletak di Jawa Timur, Gunung Bromo menawarkan pemandangan alam yang menakjubkan dengan lanskapnya yang dramatis, termasuk kawah aktif, lautan pasir, dan pegunungan hijau yang mengelilinginya.</p><br /><p>Deskripsi Gunung Bromo juga mencakup keberadaan Taman Nasional Bromo Tengger Semeru, yang melindungi keanekaragaman hayati yang unik dan menjadi rumah bagi berbagai spesies flora dan fauna. Gunung Bromo juga memiliki nilai spiritual yang tinggi bagi masyarakat lokal yang mengadakan upacara adat dan ritual di sekitarnya.</p><br /><p>Pengalaman mendaki Gunung Bromo juga menjadi daya tarik utama bagi para pendaki dan pecinta alam, yang ingin menaklukkan salah satu puncak gunung yang paling ikonik di Indonesia.</p>",
+        "history": "<h2>Sejarah Gunung Bromo 😀</h2><br /><p>Gunung Bromo memiliki sejarah vulkanik yang kaya dan beragam. Aktivitas vulkaniknya yang terus menerus telah menciptakan lanskap yang unik dan menarik bagi ilmuwan, peneliti, dan pengunjung.</p><br /><p>Sejarah Gunung Bromo mencakup berbagai letusan vulkanik yang terjadi selama ribuan tahun. Salah satu letusan paling terkenal adalah pada tahun 2010, ketika Gunung Bromo kembali aktif dan melepaskan awan abu yang mengganggu aktivitas di sekitarnya. Namun, meskipun aktivitas vulkaniknya berpotensi berbahaya, Gunung Bromo tetap menjadi salah satu destinasi wisata paling populer di Indonesia.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            { "name": "Lava View Lodge", "value": 800000 },
+            { "name": "Jiwa Jawa Resort Bromo", "value": 1200000 },
+            { "name": "Bromo Terrace Hotel", "value": 700000 },
+            { "name": "Whiz Capsule Hotel", "value": 300000 },
+            { "name": "Bromo Permai Hotel", "value": 600000 }
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipNCDxS-0MgQ_gG5vHqpD1-E79jQFka7VN5zeVQe=w426-h240-k-no"
+    },
+    {
+        "nama": "Pulau Weh",
+        "lokasi": "Aceh, Indonesia",
+        "pulau": "Sumatera",
+        "type": "Wisata",
+        "description": "<h2>Deskripsi Pulau Weh 😀</h2><br /><p>Pulau Weh adalah sebuah pulau yang terletak di ujung barat laut Provinsi Aceh, Indonesia. Pulau ini dikenal karena keindahan alam bawah lautnya yang menakjubkan, membuatnya menjadi surga bagi para penyelam dan pecinta snorkeling.</p><br /><p>Deskripsi Pulau Weh juga mencakup pesona alam di permukaannya, dengan pantai pasir putih yang memikat dan pemandangan matahari terbenam yang spektakuler. Pulau ini juga memiliki hutan yang lebat dan air terjun yang menawan, menawarkan pengalaman liburan yang lengkap bagi para wisatawan.</p><br /><p>Pulau Weh juga memiliki nilai sejarah yang kaya, sebagai bekas pos perdagangan rempah-rempah pada zaman kolonial Belanda. Pengaruh budaya Aceh yang kuat juga dapat ditemukan di pulau ini, menambah pesona dan keunikan destinasi wisata ini.</p>",
+        "history": "<h2>Sejarah Pulau Weh 😀</h2><br /><p>Pulau Weh memiliki sejarah yang panjang dan beragam sebagai bagian dari wilayah Aceh, yang memiliki peranan penting dalam perdagangan rempah-rempah di masa lalu. Namun, pulau ini juga memiliki sejarah yang tragis terkait dengan konflik bersenjata di Aceh.</p><br /><p>Sejarah Pulau Weh juga mencakup peninggalan-peninggalan sejarah seperti bangunan-bangunan tua dan situs-situs bersejarah yang tersebar di pulau ini. Pengaruh budaya dan agama Islam yang kuat juga dapat ditemukan dalam kehidupan sehari-hari penduduk Pulau Weh.</p><br /><p>Meskipun memiliki masa lalu yang rumit, Pulau Weh kini menjadi destinasi wisata populer yang menarik ribuan pengunjung setiap tahunnya untuk menikmati keindahan alamnya yang menakjubkan.</p>",
+        "header": [
+            "Jenis Akomodasi",
+            "Per Malam (IDR)"
+        ],
+        "body": [
+            { "name": "Freddie's Santai Sumur Tiga", "value": 400000 },
+            { "name": "Sunset Guest House", "value": 300000 },
+            { "name": "Lumba Lumba Diving Centre", "value": 700000 },
+            { "name": "Rumah Nenek Guesthouse", "value": 250000 },
+            { "name": "Rubiah Tirta Dive Garden", "value": 600000 }
+        ],
+        "gambar": "https://lh5.googleusercontent.com/p/AF1QipO0a4-EMkVN6EB9wLi2Z0mz98Z_UIqI5QG7qd96=w426-h240-k-no"
+    }
+]
